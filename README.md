@@ -5,8 +5,11 @@ This project is done using python flask framework and mongo as a backend databas
 <h1> Pre requisite </h1>
 Python,Flask,MongoDB
 <h1> How to Run </h1>
-cd to the simple_login_app directory
+
+cd to the simple_login_app directory.<br>
+create new venv and activate venv
 type following command<br>
+pip install -r requirements.txt<br>
 python app.py<br>
 go to postman and add new request at 
 http://127.0.0.1:5000
