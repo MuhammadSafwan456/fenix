@@ -42,8 +42,8 @@ the session key is expirable and expiry time can be configure using config/proje
 <h1> DB</h1>
 In DB the password is stored in form of hash to ensure security and session key is also stored in bytes
 
-#Architecture
-<h1> Pre requisite </h1>
+
+<h1> Architecture </h1>
 Thr project follows the MVC Architecture having separate models controller and views for user.
 the DB interact with Model while, views define entry points for different routes while controller contain business logic
 
