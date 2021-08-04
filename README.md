@@ -44,3 +44,5 @@ the DB interact with Model while, views define entry points for different routes
 #Unit Test
 unittest can be run by following command<br>
 python -m unittest -v test\test_user.py
+
+<br>Happy Testing :D
