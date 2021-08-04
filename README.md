@@ -22,7 +22,7 @@ email and password <br>
 any of one missing will return error<br>
 create a new user with given password
 if user already created then in case of wrong password it return response with user already exist and if password is correct it login the user and return userid and session key that is used in other calls</br> 
-other info you provide is stored is user db
+other info you provide in message body is stored is user collection and showed in get_user call
 
 <b>/login<br></b>
 METHOD-> POST<br>
