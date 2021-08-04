@@ -2,15 +2,15 @@
 this is task for Fenix Networks Limited </br>
 This project is done using python flask framework and mongo as a backend database
 
-#Pre requisite
+<h1> Pre requisite </h1>
 Python,Flask,MongoDB
-#How to Run
+<h1> How to Run </h1>
 cd to the simple_login_app directory
 type following command<br>
 python app.py<br>
 go to postman and add new request at 
 http://127.0.0.1:5000
-#Task Detail
+<h1> Task Detail </h1>
 <b>/Sign<br></b>
 METHOD-> POST<br>
 This endpoint takes 2 required field<br>
@@ -34,14 +34,17 @@ it return the data stored in user in call of sign_in except the sensitive data<b
 it require x-access-token in header with value of session key return by login or signup call
 the session key is expirable and expiry time can be configure using config/project_config.py
 
-#DB
+
+<h1> DB</h1>
 In DB the password is stored in form of hash to ensure security and session key is also stored in bytes
 
 #Architecture
+<h1> Pre requisite </h1>
 Thr project follows the MVC Architecture having separate models controller and views for user.
 the DB interact with Model while, views define entry points for different routes while controller contain business logic
 
-#Unit Test
+
+<h1> Unit Test </h1>
 unittest can be run by following command<br>
 python -m unittest -v test\test_user.py
 
