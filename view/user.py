@@ -36,8 +36,9 @@ def login():
 @authorize_request
 def read_user(user_id):
     user = g.user
-    sensitive_list = ["email", "password", "_id", "session_key"]
+    sensitive_list = ["email", "password", "session_key"]
     for item in sensitive_list:
         if item in user:
             user.pop(item)
+    user["_id"] = str(user["_id"])
     return jsonify(user)
